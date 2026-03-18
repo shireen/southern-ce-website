@@ -14,13 +14,13 @@ const testimonials = [
     text: "Chris and his team completely transformed our kitchen. From the cabinet installation to the new countertops, every detail was handled with care. The project was completed on time and the results exceeded our expectations.",
   },
   {
-    name: "Angela R.",
-    location: "Baltimore, MD",
+    name: "Shireen B.",
+    location: "Washington, DC",
     text: "We hired Southern C & E for a full bathroom remodel and couldn't be happier. The tile work is stunning, and Chris was communicative throughout the entire process. Highly recommend!",
   },
   {
-    name: "David & Lisa K.",
-    location: "Annapolis, MD",
+    name: "Bibi G.",
+    location: "Silver Spring, MD",
     text: "Had all the flooring in our home replaced with luxury vinyl planks. The team was professional, clean, and the finished product looks amazing. Fair pricing too — we'll definitely use them again.",
   },
 ];
@@ -232,7 +232,7 @@ export default function AboutPage() {
           </p>
           <Link
             href="/contact"
-            className="gradient-btn text-white px-10 py-4 rounded-xl font-semibold text-lg transition-all inline-block shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+            className="bg-gradient-to-r from-primary to-primary-dark text-white px-10 py-4 rounded-xl font-semibold text-lg transition-all inline-block shadow-lg hover:shadow-xl hover:shadow-primary/25 hover:-translate-y-0.5"
           >
             Get a Free Estimate
           </Link>

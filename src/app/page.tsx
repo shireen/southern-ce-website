@@ -13,12 +13,12 @@ const services = [
         stroke="currentColor"
         viewBox="0 0 24 24"
       >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
-        />
+        <rect x="3" y="4" width="18" height="16" rx="2" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
+        <line x1="3" y1="10" x2="21" y2="10" strokeWidth={1.5} />
+        <circle cx="7.5" cy="7" r="1" fill="currentColor" stroke="none" />
+        <circle cx="12" cy="7" r="1" fill="currentColor" stroke="none" />
+        <circle cx="16.5" cy="7" r="1" fill="currentColor" stroke="none" />
+        <rect x="8" y="13" width="8" height="4" rx="0.5" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
       </svg>
     ),
   },
@@ -117,13 +117,13 @@ const testimonials = [
     text: "Chris and his team completely transformed our kitchen. From the cabinet installation to the new countertops, every detail was handled with care. The project was completed on time and the results exceeded our expectations.",
   },
   {
-    name: "Angela R.",
-    location: "Baltimore, MD",
+    name: "Shireen B.",
+    location: "Washington, DC",
     text: "We hired Southern C & E for a full bathroom remodel and couldn't be happier. The tile work is stunning, and Chris was communicative throughout the entire process. Highly recommend!",
   },
   {
-    name: "David & Lisa K.",
-    location: "Annapolis, MD",
+    name: "Bibi G.",
+    location: "Silver Spring, MD",
     text: "Had all the flooring in our home replaced with luxury vinyl planks. The team was professional, clean, and the finished product looks amazing. Fair pricing too — we'll definitely use them again.",
   },
 ];
@@ -404,12 +404,6 @@ export default function Home() {
             >
               Get a Free Estimate
             </Link>
-            <a
-              href="tel:202-704-1684"
-              className="bg-gradient-to-r from-[#2563eb] to-[#1d4ed8] hover:from-[#1d4ed8] hover:to-[#1e40af] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg shadow-[#2563eb]/25"
-            >
-              Call (202) 704-1684
-            </a>
           </div>
         </div>
       </section>

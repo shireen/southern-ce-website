@@ -23,7 +23,7 @@ const services = [
     ],
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1m-2 0h2" />
+        <rect x="3" y="4" width="18" height="16" rx="2" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /><line x1="3" y1="10" x2="21" y2="10" strokeWidth={1.5} /><circle cx="7.5" cy="7" r="1" fill="currentColor" stroke="none" /><circle cx="12" cy="7" r="1" fill="currentColor" stroke="none" /><circle cx="16.5" cy="7" r="1" fill="currentColor" stroke="none" /><rect x="8" y="13" width="8" height="4" rx="0.5" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} />
       </svg>
     ),
   },
@@ -346,12 +346,6 @@ export default function ServicesPage() {
             >
               Get a Free Estimate
             </Link>
-            <a
-              href="tel:202-704-1684"
-              className="border-2 border-gray-200 text-gray-900 hover:border-primary hover:text-primary px-8 py-4 rounded-xl font-semibold text-lg transition-all"
-            >
-              Call (202) 704-1684
-            </a>
           </div>
         </div>
       </section>
