@@ -41,9 +41,8 @@ export default function ContactPage() {
                 Fill out the form below and we&apos;ll get back to you promptly.
               </p>
               <form
-                action={`mailto:southerncandecompany@gmail.com`}
+                action="https://formspree.io/f/xnjgwpvk"
                 method="POST"
-                encType="text/plain"
                 className="space-y-6"
               >
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
